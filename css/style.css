@@ -30,11 +30,10 @@
 #main-navbar ul li a {
   position: relative;
   display: block;
+  float: left;
   text-decoration: none;
   color:  #fff;
   padding: 10px 20px;
-  /* float: left; deleted here */
-
 }
 
 #main-navbar ul li a:hover {
