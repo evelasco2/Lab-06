@@ -1,12 +1,12 @@
 #main-navbar {
-  background-color: blue;
-  position: relative;
-  overflow: hidden;
+  
 }
 
 #navbar-container {
   width: 100%;
-  
+  background-color: blue;
+  position: relative;
+  overflow: hidden;
 }
 
 #main-navbar ul {
@@ -27,7 +27,7 @@
 #main-navbar ul li a {
   display: block;
   float: left;
-  padding: 10px 20px
+  padding: 10px 20px;
   color:  #fff;
   text-decoration: none;
 }
@@ -38,10 +38,6 @@
 
 #main-navbar #onpage {
   text-decoration: underline overline;
-}
-
-#sidebar {
-
 }
 
 #sidebar ul { 
