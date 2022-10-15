@@ -15,9 +15,11 @@
   list-style-type: none;
   display: block;
   position: relative;
+  //*   position: relative; *//
 }
 
 #main-navbar ul li {
+  position: relative;
   float: left;
   right: 50%;
   left: 50%;
