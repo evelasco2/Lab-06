@@ -16,20 +16,20 @@
   padding: 10px 20px;
   display: block;
   position: relative;
+  right: 50%;
+  left: 50%;
 }
 
 #main-navbar ul li {
   float: left;
-  right: 50%;
-  left: 50%;
-  color:  #fff;
-
 }
 
 #main-navbar ul li a {
   display: block;
   float: left;
   text-decoration: none;
+  color:  #fff;
+
 }
 
 #main-navbar ul li a:hover {
@@ -43,7 +43,6 @@
 #sidebar ul { 
   list-style-type: none;
   padding: 0;
-
 }
 
 #sidebar ul li {
@@ -55,7 +54,6 @@
   color: #fff;
   display: block;
   text-decoration: none;
-
 }
 
 #sidebar ul li a:hover {
