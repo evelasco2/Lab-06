@@ -7,29 +7,28 @@
   background-color: blue;
   position: relative;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #main-navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px 20px;
   display: block;
   position: relative;
+}
+
+#main-navbar ul li {
+  float: left;
   right: 50%;
   left: 50%;
   color:  #fff;
 
 }
 
-#main-navbar ul li {
-  float: left;
-
-}
-
 #main-navbar ul li a {
   display: block;
   float: left;
-  padding: 10px 20px;
   text-decoration: none;
 }
 
