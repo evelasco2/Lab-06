@@ -14,12 +14,12 @@
 
 #main-navbar ul {
   list-style-type: none;
-  display: block;
   position: relative;
-  /*   position: relative; */
+  /* display: block;
 }
 
 #main-navbar ul li {
+  display: block;
   position: relative;
   right: 50%;
   left: 50%;
