@@ -1,6 +1,7 @@
 #main-navbar {
   background-color: blue;
   overflow:  hidden;
+  position: relative;
 
 }
 
@@ -19,9 +20,11 @@
 
 #main-navbar ul li a {
   display: block;
+  position: relative;
   padding: 10px 20px
   color:  #fff;
   text-decoration: none;
+  float: left;
   left: 50%;
   right: 50%;
 }
@@ -33,6 +36,7 @@
 #navbar-container {
   width: 100%;
   position:  relative;
+  float: left;
 
 }
 
@@ -54,11 +58,6 @@
 
 /**
 NAVIGATION
-float: left;
-position: relative;
-float: left;
-position: relative;
-
 
 ----------------------------------------
 
