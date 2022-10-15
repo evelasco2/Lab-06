@@ -17,6 +17,8 @@
   position: relative;
   right: 50%;
   left: 50%;
+  color:  #fff;
+
 }
 
 #main-navbar ul li {
@@ -28,7 +30,6 @@
   display: block;
   float: left;
   padding: 10px 20px;
-  color:  #fff;
   text-decoration: none;
 }
 
