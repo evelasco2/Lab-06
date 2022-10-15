@@ -14,8 +14,8 @@
 
 #main-navbar ul {
   list-style-type: none;
-  position: relative;
   /* display: block; */
+  /*   position: relative; moved to ul li a for main-navbar */
 }
 
 #main-navbar ul li {
@@ -28,11 +28,13 @@
 }
 
 #main-navbar ul li a {
+  position: relative;
   display: block;
   float: left;
   text-decoration: none;
   color:  #fff;
   padding: 10px 20px;
+
 }
 
 #main-navbar ul li a:hover {
