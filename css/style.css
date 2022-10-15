@@ -1,15 +1,18 @@
 #main-navbar {
   background-color: blue;
-  overflow:  hidden;
   position: relative;
+  overflow: hidden;
+}
 
+#navbar-container {
+  width: 100%;
 }
 
 #main-navbar ul {
   list-style-type: none;
-  display: block;
-  margin: 0;   
+  margin: 0;
   padding: 0;
+  display: block;
 
 }
 
@@ -20,24 +23,13 @@
 
 #main-navbar ul li a {
   display: block;
-  position: relative;
   padding: 10px 20px
   color:  #fff;
   text-decoration: none;
-  float: left;
-  left: 50%;
-  right: 50%;
 }
 
 #main-navbar ul li a:hover {
   background-color: #000;
-}
-
-#navbar-container {
-  width: 100%;
-  position:  relative;
-  float: left;
-
 }
 
 #main-navbar #onpage {
@@ -58,7 +50,12 @@
 
 /**
 NAVIGATION
-
+position:  relative;
+float: left;
+position: relative;
+float: left;
+left: 50%;
+right: 50%;
 ----------------------------------------
 
 
