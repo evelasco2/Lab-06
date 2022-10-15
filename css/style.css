@@ -47,17 +47,24 @@
 
 #sidebar ul { 
   list-style-type: none;
+  padding: 0;
 
 }
 
 #sidebar ul li {
   text-align: center;
+  text-decoration: none;
+
 }
 
 #sidebar ul li a {
   padding: 15px 0;
   color: #fff;
   display: block;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
 }
 
 #sidebar-container {
@@ -73,10 +80,3 @@ NAVIGATION
 position: relative;
 float: left;
 ----------------------------------------
-
-
-FOR SIDEBAR
-padding: 0;
-text-decoration: none;
-background-color: #000;
-
