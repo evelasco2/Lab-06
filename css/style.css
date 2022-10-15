@@ -13,15 +13,17 @@
 
 #main-navbar ul {
   list-style-type: none;
-  padding: 10px 20px;
+  
   display: block;
   position: relative;
-  right: 50%;
-  left: 50%;
+  
 }
 
 #main-navbar ul li {
   float: left;
+  padding: 10px 20px;
+  right: 50%;
+  left: 50%;
 }
 
 #main-navbar ul li a {
