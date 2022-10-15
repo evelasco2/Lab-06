@@ -6,9 +6,7 @@
 
 #navbar-container {
   width: 100%;
-  right: 50%;
-  left: 50%;
-  text-align: center; /** added this part **/
+  
 }
 
 #main-navbar ul {
@@ -17,7 +15,8 @@
   padding: 0;
   display: block;
   position: relative;
-
+  right: 50%;
+  left: 50%;
 }
 
 #main-navbar ul li {
@@ -53,14 +52,14 @@
 
 #sidebar ul li {
   text-align: center;
-  text-decoration: none;
-
 }
 
 #sidebar ul li a {
   padding: 15px 0;
   color: #fff;
   display: block;
+  text-decoration: none;
+
 }
 
 #sidebar ul li a:hover {
