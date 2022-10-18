@@ -26,7 +26,7 @@
   background-color: #000;
 }
 
-#main-navbar #on-page {
+#navbar-container #on-page a {
   text-decoration: underline overline;
 }
 
