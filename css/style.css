@@ -3,6 +3,12 @@
   position: relative;
 }
 
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
 #main-navbar ul {
   list-style-type: none;
   padding: 0;
@@ -26,14 +32,16 @@
   background-color: #000;
 }
 
-#navbar-container #on-page a {
+#main-navbar #navbar-container #on-page a {
   text-decoration: underline overline;
 }
 
-#navbar-container {
-  width: 100%;
-  position: relative;
-  text-align: center;
+#sidebar {
+  background-color: red;
+  position: fixed;
+  right: 0;
+  width: 20%;
+  height: 100%;
 }
 
 #sidebar-container ul {
@@ -54,12 +62,4 @@
 
 #sidebar-container ul li a:hover {
   background-color: #000;
-}
-
-#sidebar {
-  background-color: red;
-  position: fixed;
-  right: 0;
-  width: 20%;
-  height: 100%;
 }
