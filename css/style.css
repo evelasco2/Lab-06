@@ -1,80 +1,65 @@
 #main-navbar {
-  width: 100%;
-}
-
-#navbar-container {
   background-color: blue;
   position: relative;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  /*float: left second time; */
-
 }
 
 #main-navbar ul {
   list-style-type: none;
-  /* display: block; */
-  /*   position: relative; moved to ul li a for main-navbar */
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: inline-block
 }
 
 #main-navbar ul li {
-  display: block;
-  position: relative;
-  right: 50%;
-  left: 50%;
-  /*   float: left; */
-  /*   padding: 10px 20px; second */
+  float: left;
 }
 
 #main-navbar ul li a {
-  position: relative;
   display: block;
-  float: left;
-  text-decoration: none;
-  color:  #fff;
   padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
 #main-navbar ul li a:hover {
   background-color: #000;
 }
 
-#main-navbar #onpage a {
+#main-navbar #on-page {
   text-decoration: underline overline;
-  /* added a */
 }
 
-#sidebar ul { 
-  list-style-type: none;
-  padding: 0;
-}
-
-#sidebar ul li {
+#navbar-container {
+  width: 100%;
+  position: relative;
   text-align: center;
 }
 
-#sidebar ul li a {
+#sidebar-container ul {
+  padding: 0;
+}
+
+#sidebar-container ul li {
+  list-style-type: none;
+}
+
+#sidebar-container ul li a {
+  display: block;
   padding: 15px 0;
   color: #fff;
-  display: block;
+  text-align: center;
   text-decoration: none;
 }
 
-#sidebar ul li a:hover {
+#sidebar-container ul li a:hover {
   background-color: #000;
 }
 
-#sidebar-container {
+#sidebar {
   background-color: red;
   position: fixed;
-  height: 100%;
+  right: 0;
   width: 20%;
-  right: 0%;
+  height: 100%;
 }
-
-/**
-NAVIGATION
-position: relative;
-float: left;
-----------------------------------------
