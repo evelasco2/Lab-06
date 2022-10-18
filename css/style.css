@@ -32,7 +32,7 @@
   background-color: #000;
 }
 
-#main-navbar #navbar-container #onpage a {
+#onpage {
   text-decoration: underline overline;
 }
 
